@@ -1,0 +1,14 @@
+/*--------------------------------------------------------------
+# Style of Main Button
+--------------------------------------------------------------*/
+.main__btn {
+  cursor: pointer;
+  padding: 0.4rem 1.5rem;
+  background: var(--lightBlue);
+  border-radius: 36px;
+  font-size: 1.4rem;
+  border: none;
+  &:hover {
+    filter: contrast(200%);
+  }
+}

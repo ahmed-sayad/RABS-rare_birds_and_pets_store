@@ -1,0 +1,982 @@
+/*--------------------------------------------------------------
+# Style of All
+--------------------------------------------------------------*/
+
+:root {
+  --gray: #eeeeee;
+  --lightBlue: #32e1c4;
+  --mainColor: #0d7377;
+  --mainDark: #212121;
+  --darkGray: #777;
+}
+
+.main-color{
+    color: #0d7377
+}
+/*--------------------------------------------------------------
+# CStyle Of All buttons
+--------------------------------------------------------------*/
+
+.main__btn {
+  cursor: pointer;
+    border: none;
+  padding: 0.4rem 1.5rem;
+  background: var(--lightBlue);
+  border-radius: 18px;
+  font-size: 1.4rem;
+  
+}
+
+
+.main__btn2 {
+    margin-left: 97%;
+  cursor: pointer;
+  padding: 0.4rem 1.5rem;
+  background: var(--lightBlue);
+  border-radius: 18px;
+  font-size: 1.4rem;
+  border: none;
+}
+
+.main__btn3 {
+    margin-left: 41%;
+  cursor: pointer;
+  padding: 0.4rem 1.5rem;
+  background: var(--lightBlue);
+  border-radius: 18px;
+  font-size: 1.4rem;
+  border: none;
+}
+
+.main__btn4 {
+    margin-left: 70%;
+  cursor: pointer;
+  padding: 0.4rem 1.5rem;
+  background: var(--lightBlue);
+  border-radius: 18px;
+  font-size: 1.4rem;
+  border: none;
+}
+
+.main__btn5 {
+    margin-left: 13%;
+  cursor: pointer;
+  padding: 0.4rem 1.5rem;
+  background: var(--lightBlue);
+  border-radius: 18px;
+  font-size: 1.4rem;
+  border: none;
+}
+.main__btn6 {
+    margin-left: 47%;
+  cursor: pointer;
+  padding: 0.4rem 1.5rem;
+  background: var(--lightBlue);
+  border-radius: 18px;
+  font-size: 1.4rem;
+  border: none;
+}
+
+.main__btn7 {
+    margin-left: 25%;
+  cursor: pointer;
+  padding: 0.4rem 1.5rem;
+  background: var(--lightBlue);
+  border-radius: 18px;
+  font-size: 1.4rem;
+  border: none;
+}
+.main__btn:hover {
+  -webkit-filter: contrast(200%);
+          filter: contrast(200%);
+}
+.main__btn {
+  cursor: pointer;
+  padding: 0.4rem 1.5rem;
+  background: var(--lightBlue);
+  border-radius: 36px;
+  font-size: 1.4rem;
+  border: none;
+  &:hover {
+    filter: contrast(200%);
+  }
+}
+
+/*--------------------------------------------------------------
+# Style Of All text inputs
+--------------------------------------------------------------*/
+
+.forget__input{
+    background: var(--mainDark);
+  border: 2px solid var(--mainColor);
+  padding: 0.7rem 0.9rem;
+  font-size: 1.9rem;
+  color: var(--gray);
+    }
+}
+
+.main__input {
+  background: var(--mainDark);
+  border: 3px solid var(--mainColor);
+  padding: 0.8rem 0.5rem;
+  font-size: 1.3rem;
+  color: var(--gray);
+  &::placeholder {
+    color: var(--darkGray);
+    font-size: 1.3rem;
+  }
+}
+.main__input {
+  background: var(--mainDark);
+  border: 3px solid var(--mainColor);
+  padding: 0.8rem 0.8rem;
+  font-size: 1.3rem;
+  color: var(--gray);
+}
+
+.main__input_descripiton{
+    background: var(--mainDark);
+  border: solid var(--mainColor);
+ font-family: "tahoma";
+  font-size: 1.3rem;
+  color: var(--gray);
+    padding: 0.8rem 5rem;
+}
+
+.main__input::-webkit-input-placeholder {
+  color: var(--darkGray);
+  font-size: 1rem;
+}
+
+.main__input:-ms-input-placeholder {
+  color: var(--darkGray);
+  font-size: 1rem;
+}
+
+.main__input::-ms-input-placeholder {
+  color: var(--darkGray);
+  font-size: 1rem;
+}
+
+.main__input::placeholder {
+  color: var(--darkGray);
+  font-size: 1rem;
+    width: 300px;
+  height: 150px;
+}
+label{
+  display: inline-block;
+  background-color: var(--mainColor);
+  color: white;
+  padding: 0.5rem;
+  font-family: sans-serif;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+@font-face {
+  font-family: "ink free";
+  src: url("../fonts/ink-free-normal.ttf");
+}
+
+/*--------------------------------------------------------------
+# Style Of herder (logo, hotline images) of all HTML pages
+--------------------------------------------------------------*/
+
+.logo {
+  font-family: "ink free";
+    color: white;
+}
+.logo .logo__title{
+    color: white;
+     text-decoration: none;
+  display: inline-block;
+    font-size: 40px;
+}
+.hotLine__wrapper .hotline{
+    font-family: tahoma;
+    font-size: 20px;
+    width: 70px;
+    margin-left: 10px;
+}
+.hotline_img{
+    height: 80px;
+}
+.hotline-icon{
+    height: 80px;
+}
+.logout{
+    font-family: tahoma;
+    font-size: 20px;
+    width: 70px;
+    margin-left: 10px;
+    color: white;
+    text-decoration: none;
+    display: inline;
+}
+
+/*--------------------------------------------------------------
+# to All
+--------------------------------------------------------------*/
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.main__section__content .Orders{    
+    margin-left: 10px;
+}
+
+
+body,
+div {
+  padding: 0;
+  margin: 0;
+}
+
+input,
+button {
+  outline: none;
+}
+
+body {
+  font-family: Tahoma, Geneva, Verdana, sans-serif;
+  color: var(--gray);
+}
+
+.main__header__content > *, .main__section__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+
+.center-text{
+   text-align: center; 
+}
+
+
+/*--------------------------------------------------------------
+# Style of container of All pages
+--------------------------------------------------------------*/
+
+.container {
+  margin: 0 auto;
+  width: 90%;
+}
+
+/*--------------------------------------------------------------
+# Style of header side at the out side pages
+--------------------------------------------------------------*/
+
+.main__header {
+  padding: 1rem 0;
+  background-color: var(--mainColor);
+}
+
+.main__header img {
+  max-width: 70px;
+}
+
+.main__header__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+/*--------------------------------------------------------------
+# Style of form section of all pagess
+--------------------------------------------------------------*/
+
+.main__section {
+  background: var(--mainDark);
+  min-height: 600px;
+  padding: 1rem 0px;
+}
+
+
+.main__section h2 {
+  margin-top: 1rem;
+  font-size: 3rem;
+}
+
+.main__section a {
+  font-size: 0.8rem;
+}
+
+.main__section form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 1rem;
+}
+
+/*--------------------------------------------------------------
+# Style of footer section of all pages
+--------------------------------------------------------------*/
+
+.main__section form .form__footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main__section form .form__footer .links__wrapper {
+  margin-left: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 0.4rem;
+}
+
+.main__section__content {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.main__footer {
+  background: var(--mainColor);
+  padding: 1rem;
+}
+
+.main__footer .main__footer__info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+@media (max-width: 800px) {
+  .main__footer .main__footer__info {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+}
+
+.copy__rights__area {
+  text-align: center;
+}
+
+.social__media__icon {
+  max-width: 50px;
+  margin-right: 0.3rem;
+}
+
+@media (max-width: 800px) {
+  .social__media__icon {
+    max-width: 40px;
+  }
+}
+
+/*--------------------------------------------------------------
+# sourceMappingURL=style.css.map
+--------------------------------------------------------------*/
+
+.contact-title{
+      text-align: center;
+
+}
+
+.sell-bird{
+    border-radius: 50%;
+    width:160px;
+    height: 160px;
+}
+
+.profile_pic{
+    border-radius: 50%;
+    width:50px;
+    height: 50px;
+    margin-top: 20px;
+}
+.column{
+    float: left;
+  width: 50%;
+    margin-left: 0%;
+}
+
+.parrot_post{
+    width: 600px;
+    height: 400px;
+}
+.owner_icon{
+    width: 80px;
+    height: 80px;
+}
+.location-icon{
+    width: 80px;
+    height: 80px;
+}
+.bottom-icons{
+    top: 50px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+.navigation{
+       display: inline-block;
+    text-align: center;
+}
+.navigation a{
+  display: inline-flex;
+  padding: 20px;
+    height: 7px;
+    list-style: none;
+     text-decoration: none;
+}
+.naveigation ul{
+    text-align: center;
+}
+.navigation a li{
+  color:#ffffff;
+  font-family: 'Tahoma';
+  font-size: 30px;
+    text-align: center;
+}
+
+
+.app {
+  width: 90%;
+  max-width: 500px;
+  margin: 0 auto;
+    text-align: center;
+}
+.container2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.item {
+  width: 90px;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
+.radio {
+  display: none;
+}
+.radio ~ span {
+  font-size: 3rem;
+  filter: grayscale(100);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.radio:checked ~ span {
+  filter: grayscale(0);
+  font-size: 4rem;
+}
+
+/*--------------------------------------------------------------
+# Style of map at countact us page
+--------------------------------------------------------------*/
+
+.map{
+    margin-left: 99%;
+}
+
+
+/*--------------------------------------------------------------
+# Style of Order section at "My Account" Page
+--------------------------------------------------------------*/
+
+.line1-left{
+   text-align:left;
+   font-size: 30px; 
+}
+
+.line1-right{
+    float:right; 
+    margin-right: 250px; 
+    font-size: 30px;
+}
+
+
+.line2-main-style{
+ text-align:left; 
+    margin-right: 190px; 
+    font-size: 20px; 
+    color: #0d7377
+}
+
+.line2-right{
+    float:right; 
+    font-size: 20px; 
+    color: #0d7377
+}
+
+.line3-left{
+    float:right; 
+    font-size: 30px; 
+    margin-right: 180px;
+}
+
+.line3-left{
+    font-size: 20px; 
+    color: #0d7377
+}
+
+.line3-4-5{
+    float:right; 
+    font-size: 30px; 
+    margin-right: 180px;
+}
+
+.line-3-5-left{
+    font-size: 20px; 
+    color: #0d7377
+}
+
+.phone-num{
+    font-size: 30px;
+}
+
+.num-phone{
+    font-size: 20px; 
+    color: #0d7377;
+}
+
+/*--------------------------------------------------------------
+# Style of birds & pets page
+--------------------------------------------------------------*/
+
+.bird-pet-bg{
+    width:96%;
+    margin-top: 1\1px;
+}
+/*--------------------------------------------------------------
+# Style of profile pic of logout at all pages
+--------------------------------------------------------------*/
+
+.profile_pic{
+   border-radius: 50%;
+    width:160px;
+    height: 160px;  
+}
+
+.see-more{
+    text-align: center; 
+    color: blue; 
+    font-size: 20px;
+}
+/*--------------------------------------------------------------
+# Style of all content of the boxes at the search page
+--------------------------------------------------------------*/
+
+.content {
+    width: 400px;
+    border: 4px solid red;
+    padding: 20px;
+    overflow: hidden;
+    margin-left: 15%;
+    
+    
+}
+
+.content2 {
+    width: 400px;
+    border: 4px solid red;
+    padding: 20px;
+    overflow: hidden;
+   float:right; 
+    margin-right: 15%;
+}
+
+.content img {
+    margin-right: 15px;
+    float: left;
+}
+
+.content h3,
+.content p{
+    margin-left: 15px;
+    display: block;
+    margin: 2px 0 0 0;
+}
+.content2 img {
+    margin-right: 15px;
+    float: left;
+}
+
+.content2 h3,
+.content2 p{
+    margin-left: 15px;
+    display: block;
+    margin: 2px 0 0 0;
+}
+
+.content_post_box {
+    border: 4px solid #0d7377;
+    padding: 20px;
+    margin-right: 30px;
+    margin-left: 30px;
+    background: #0d7377;
+    
+}
+
+.content2_post_box {
+   margin-right: 30px;
+    border: 4px solid #0d7377;
+    background: #0d7377;
+    padding: 20px;
+   
+}
+.content3_post_box{
+   margin-right: 15px;
+    border: 4px solid #0d7377;
+    background: #0d7377;
+    padding: 20px;
+    
+}
+
+.content4_post_box{
+    margin-right: 30px;
+    margin-left: 15px;
+    border: 4px solid #0d7377;
+    background: #0d7377;
+    padding: 20px;
+}
+
+.post_box{
+     border-radius: 50%;
+    width:120px;
+    height: 120px;
+    margin-left: 38%;
+}
+
+/*--------------------------------------------------------------
+# Add a black background color to the top navigation
+--------------------------------------------------------------*/
+
+navbar{
+  text-align: center;
+}
+
+/*--------------------------------------------------------------
+# Style of the links inside the navigation bar
+--------------------------------------------------------------*/
+ 
+.topnav a {
+   
+    text-align: center;
+   
+    padding: 14px 16px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+/*--------------------------------------------------------------
+# Style of the search box
+--------------------------------------------------------------*/
+
+.text-block {
+  position: absolute;
+  bottom: 50%;
+  right: 42%;
+  background-color: #212121;
+  color: #196362;
+    font-size: 24px;
+    border-radius: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.search-box{
+  position:absolute;
+  margin-top: 30px;
+  left: 50%;
+  border: 2px solid #0d7377;
+  transform: translate(-50%,-50%);
+  background: #212121;                    
+  height: 50px;
+  border-radius: 40px;
+  padding: 6px;
+}
+.search-box .search-btn{
+  color :#0d7377;
+  float: right;
+  width: 40px;
+  height: 30px;
+  font-size:25px;
+  border-radius: 50%;
+  background: none;
+  display: flex;
+ 
+  justify-content: center;
+  align-items: center;
+ 
+}
+.search-box .search-txt{
+  border: none;
+  background: none;
+  outline: none;
+  float: left;
+  padding: 6px 5px;
+  color: #ffffff;
+  font-size: 16px;
+  transition: 0.4s;
+  line-height: 40px;
+  width: 800px;
+  height: 30px;
+}
+
+/*--------------------------------------------------------------
+# Style of the logout pic at all pages
+--------------------------------------------------------------*/
+
+.logout_pic{
+    border-radius: 50%;
+    width:40px;
+    height: 40px;
+    margin-left: 10px;
+}
+
+.search_posts{
+    margin-top: 80px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/*--------------------------------------------------------------
+# Style of the boxes rows at the serach page
+--------------------------------------------------------------*/
+
+.row {
+  display: flex;
+    align-content: center;
+    margin-top: 65px;
+}
+.row2 {
+  display: flex;
+    align-content: center;
+    margin-top: 30px;
+}
+.row3 {
+  display: flex;
+    align-content: center;
+    margin-top: 30px;
+}
+
+/*--------------------------------------------------------------
+# Create three equal columns that sits next to each other
+--------------------------------------------------------------*/
+
+.column {
+  flex: 25%;
+  padding: 5px;
+}
+
+#input_container {
+    position:relative;
+    padding:0 0 0 20px;
+    margin:0 20px;
+    background:#ddd;
+    direction: rtl;
+    width: 200px;
+}
+#input {
+    height:20px;
+    margin:0;
+    padding-right: 30px;
+    width: 100%;
+}
+#input_img {
+    position:absolute;
+    bottom:4px;
+    top:10px;
+    right:5px;
+    width:24px;
+    height:24px;
+}
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css);
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+.slider {
+    margin-top: 20px;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row nowrap;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.slider__nav {
+  width: 12px;
+  height: 12px;
+  margin: 2rem 12px;
+  border-radius: 50%;
+  z-index: 10;
+  outline: 6px solid #ffffff;
+  outline-offset: -6px;
+  box-shadow: 0 0 0 0 #0D7377, 0 0 0 0 rgba(51, 51, 51, 0);
+  cursor: pointer;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+.slider__nav:checked {
+  -webkit-animation: check 0.4s linear forwards;
+          animation: check 0.4s linear forwards;
+}
+.slider__nav:checked:nth-of-type(1) ~ .slider__inner {
+  left: 0%;
+}
+.slider__nav:checked:nth-of-type(2) ~ .slider__inner {
+  left: -100%;
+}
+.slider__nav:checked:nth-of-type(3) ~ .slider__inner {
+  left: -200%;
+}
+.slider__nav:checked:nth-of-type(4) ~ .slider__inner {
+  left: -300%;
+}
+.slider__inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 400%;
+  height: 100%;
+  -webkit-transition: left 0.4s;
+  transition: left 0.4s;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row nowrap;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+}
+.slider__contents {
+  height: 100%;
+  padding: 2rem;
+  text-align: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  -webkit-flex-flow: column nowrap;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.slider__image {
+  font-size: 2.7rem;
+      color: #2196F3;
+}
+.slider__caption {
+  font-weight: 500;
+  margin: 2rem 0 1rem;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  text-transform: uppercase;
+}
+.slider__txt {
+  color: #999;
+  margin-bottom: 3rem;
+  max-width: 300px;
+}
+
+@-webkit-keyframes check {
+  50% {
+    outline-color: #0D7377;
+    box-shadow: 0 0 0 12px #0D7377;, 0 0 0 36px rgba(51, 51, 51, 0.2);
+  }
+  100% {
+    outline-color: #0D7377;
+    box-shadow: 0 0 0 0 #0D7377;, 0 0 0 0 rgba(51, 51, 51, 0);
+  }
+}
+
+@keyframes check {
+  50% {
+    outline-color: #0D7377;
+    box-shadow: 0 0 0 12px #0D7377;, 0 0 0 36px rgba(51, 51, 51, 0.2);
+  }
+  100% {
+    outline-color: #0D7377;
+    box-shadow: 0 0 0 0 #0D7377;, 0 0 0 0 rgba(51, 51, 51, 0);
+  }
+}
+
+/*--------------------------------------------------------------
+# Style of view posts (see more)
+--------------------------------------------------------------*/
+
+.veiw-more-words{
+    font-size: 30px; 
+    font-weight: normal;
+}
+
+/*--------------------------------------------------------------
+# Style of sell pages
+--------------------------------------------------------------*/
+.title{
+    font-size: 15px; 
+    margin-left: 95px;
+}
+
+.font_size{
+    font-size: 15px;
+}

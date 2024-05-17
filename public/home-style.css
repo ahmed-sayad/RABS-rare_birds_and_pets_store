@@ -1,0 +1,126 @@
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+body {
+  font-family: "Ink free", tahoma;
+  background-color: black;
+    
+}
+
+h1 {
+  font-family: "Ink free";
+}
+h2, h3, h4, h5, h6 {
+  font-family: tahoma;
+}
+
+body, html {
+  
+}
+
+.bg {
+  /* The image used */
+  background-image: url("img_girl.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/*--------------------------------------------------------------
+# title
+----------------------------------------------------------------*/
+
+.home-words{
+    font-size: 25px;
+    color: white;
+    margin-right: 45px;
+}
+
+.button1 {
+  background-color: black;
+  border-radius: 7px;
+  border-color: white;
+  color: red;
+    cursor: pointer;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+    border-radius: 30px;
+    margin-left: 7%;
+    
+}
+
+.button2 {
+  background-color: black;
+  border-radius: 7px;
+  border-color: white;
+  color: red;
+    cursor: pointer;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+    border-radius: 30px;
+    
+}
+.hero-logo{
+  width:3%;
+  height: 5%
+}
+.login_Q{
+    color: white;
+    margin-left: 3%;
+}
+
+.container{
+  display:flex;
+  width:100%; 
+}
+.box{
+  width:250px;
+}
+.title{
+  font-size: 120px;
+  color: red;
+  margin-left: 17%;
+  margin-bottom: 10px;
+}
+.content{
+  width:900px;
+  margin-left:-70px;
+
+}
+
+/*--------------------------------------------------------------
+# Style of images
+--------------------------------------------------------------*/
+
+.logo{
+  width:100px;
+  margin-top: 50px;
+  padding-left:80px;
+}
+.cat{
+  width:430px;
+  height:370px;
+  margin-top: 110px;
+  padding: 83px 0px 0px 0px;
+}
+.parrot{
+height:650px;
+width:450px;
+margin-top: 40px;
+margin-left: 670px;
+padding: 30px 0px 0px 90px;
+}
+.mouse_icon{
+margin-left: 265px;
+margin-top: 10px;
+}
